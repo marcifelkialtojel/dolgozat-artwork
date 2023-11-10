@@ -8,6 +8,27 @@
   </head>
   <body>
     <div id="app"></div>
+    <form id="artForm">
+      <p id="countP">A művek száma: </p>
+      <p id="sumP">A művek összesített ára: </p>
+      <label> A mű címe:
+        <input type="text" id="titleInput">
+      </label> <br> <br>
+      <label> A mű készítési éve:
+        <input type="number" id="yearInput">
+      </label> <br> <br>
+      <label> A mű kikiáltási ára:
+        <input type="number" id="priceInput"> Ft
+      </label> <br> <br>
+      <label> A mű magassága:
+        <input type="number" id="heightInput"> cm
+      </label> <br> <br>
+      <p id="errorMessage1"></p>
+      <p id="errorMessage2"></p>
+      <p id="errorMessage3"></p>
+      <p id="errorMessage4"></p>
+    </form>
+    <button id="submitBtn">Submit</button>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
